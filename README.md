@@ -28,15 +28,26 @@ Learning Solidity and building smart contracts on Base.
 - Verified on Sourcify
 - Verified on Blockscout
 
+### ✅ ETH Airdrop Contract
+- Owner-managed recipient list
+- One-time ETH claim
+- ETH deposit and withdrawal
+- Double claim protection
+- Fully tested on Base Mainnet
+- Exactly Verified
+
 ## Repository Structure
 
 ```
 base-learning/
 │
-├── B20/
-├── ERC20/
-├── erc721/
-├── erc1155/
+├── contracts/
+│   ├── Airdrop/
+│   ├── B20/
+│   ├── ERC20/
+│   ├── ERC721/
+│   └── ERC1155/
+│
 └── README.md
 ```
 
@@ -44,22 +55,23 @@ base-learning/
 
 - Solidity
 - Remix IDE
-- MetaMask
+- Base App
 - GitHub
 - Base Mainnet
 - OpenZeppelin
 
 ## Current Progress
 
-- ✅ B20
-- ✅ ERC20
-- ✅ ERC721
-- ✅ ERC1155
+- ✅ B20 Token
+- ✅ ERC20 Token
+- ✅ ERC721 NFT
+- ✅ ERC1155 Multi Token
+- ✅ ETH Airdrop
 
 ## Next Goals
 
 - ERC4626 Vault
-- Airdrop Contract
 - Staking Contract
 - NFT Marketplace
 - DAO Governance
+- Multisig Wallet
