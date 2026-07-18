@@ -1,77 +1,119 @@
 # Base Learning
 
-Learning Solidity and building smart contracts on Base.
+A collection of Solidity smart contracts built while learning smart contract development on Base.
 
-## Completed Projects
+The repository contains educational implementations of ERC standards and DeFi primitives using Solidity and OpenZeppelin.
 
-### ✅ B20 Token
-- Custom B20 token contract
-- Deployed on Base
-- Source code available
-
-### ✅ ERC20 Token
-- Custom ERC20 token
-- Deployed on Base Mainnet
-- Verified contract
-
-### ✅ ERC721 NFT Collection
-- Custom NFT collection
-- Mint function
-- Verified on Sourcify
-- Verified on Blockscout
-
-### ✅ ERC1155 Multi Token
-- Multi-token standard
-- Single mint
-- Batch mint
-- First token minted
-- Verified on Sourcify
-- Verified on Blockscout
-
-### ✅ ETH Airdrop Contract
-- Owner-managed recipient list
-- One-time ETH claim
-- ETH deposit and withdrawal
-- Double claim protection
-- Fully tested on Base Mainnet
-- Exactly Verified
+---
 
 ## Repository Structure
 
-```
+```text
 base-learning/
-│
-├── contracts/
-│   ├── Airdrop/
-│   ├── B20/
-│   ├── ERC20/
-│   ├── ERC721/
-│   └── ERC1155/
-│
-└── README.md
+
+├── ERC20/
+├── B20/
+├── erc721/
+├── erc1155/
+└── staking/
 ```
 
-## Tools
+---
 
-- Solidity
+## Projects
+
+### ERC20
+
+Basic ERC20 token implementation.
+
+Features:
+
+- Mint
+- Burn
+- OpenZeppelin ERC20
+- Ownership
+
+---
+
+### B20
+
+Simple fungible token implementation deployed on Base.
+
+Features:
+
+- ERC20 compatible
+- Mintable
+- Burnable
+
+---
+
+### ERC721
+
+NFT smart contract.
+
+Features:
+
+- Safe Mint
+- URI storage
+- Ownership
+- OpenZeppelin ERC721
+
+---
+
+### ERC1155
+
+Multi-token smart contract.
+
+Features:
+
+- Single mint
+- Batch mint
+- URI support
+- OpenZeppelin ERC1155
+
+---
+
+### Staking
+
+ERC20 staking protocol.
+
+Features:
+
+- Stake ERC20 tokens
+- Reward distribution
+- Claim rewards
+- Lock period
+- Emergency withdrawal
+- Pause / Unpause
+- AccessControl
+- ReentrancyGuard
+- SafeERC20
+
+---
+
+## Technologies
+
+- Solidity ^0.8.24
+- OpenZeppelin Contracts
 - Remix IDE
-- Base App
-- GitHub
-- Base Mainnet
-- OpenZeppelin
+- Base Network
 
-## Current Progress
+---
 
-- ✅ B20 Token
-- ✅ ERC20 Token
-- ✅ ERC721 NFT
-- ✅ ERC1155 Multi Token
-- ✅ ETH Airdrop
+## Learning Goals
 
-## Next Goals
+This repository was created to practice:
 
-- ERC4626 Vault
-- Staking Contract
-- NFT Marketplace
-- DAO Governance
-- Multisig Wallet
+- Smart contract development
+- ERC token standards
+- NFT development
+- Multi-token standards
+- DeFi staking mechanics
+- Secure Solidity development
+- OpenZeppelin best practices
+
+---
+
+## License
+
+MIT
