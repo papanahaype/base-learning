@@ -15,7 +15,8 @@ base-learning/
 ├── B20/
 ├── erc721/
 ├── erc1155/
-└── staking/
+├── staking/
+└── vault/
 ```
 
 ---
@@ -54,7 +55,7 @@ NFT smart contract.
 Features:
 
 - Safe Mint
-- URI storage
+- URI Storage
 - Ownership
 - OpenZeppelin ERC721
 
@@ -66,9 +67,9 @@ Multi-token smart contract.
 
 Features:
 
-- Single mint
-- Batch mint
-- URI support
+- Single Mint
+- Batch Mint
+- URI Support
 - OpenZeppelin ERC1155
 
 ---
@@ -91,10 +92,28 @@ Features:
 
 ---
 
+### Vault
+
+ERC4626 tokenized vault implementation.
+
+Features:
+
+- ERC4626
+- Deposit assets
+- Mint vault shares
+- Withdraw assets
+- Redeem vault shares
+- Vault Cap
+- AccessControl
+- Pause / Unpause
+- ReentrancyGuard
+
+---
+
 ## Technologies
 
 - Solidity ^0.8.24
-- OpenZeppelin Contracts
+- OpenZeppelin Contracts v5
 - Remix IDE
 - Base Network
 
@@ -108,6 +127,7 @@ This repository was created to practice:
 - ERC token standards
 - NFT development
 - Multi-token standards
+- ERC4626 tokenized vaults
 - DeFi staking mechanics
 - Secure Solidity development
 - OpenZeppelin best practices
