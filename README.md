@@ -2,7 +2,7 @@
 
 A collection of Solidity smart contracts built while learning smart contract development on Base.
 
-The repository contains educational implementations of ERC standards and DeFi primitives using Solidity and OpenZeppelin.
+The repository contains educational implementations of ERC standards, DeFi primitives, and on-chain governance using Solidity and OpenZeppelin.
 
 ---
 
@@ -13,10 +13,11 @@ base-learning/
 
 ├── ERC20/
 ├── B20/
-├── erc721/
-├── erc1155/
-├── staking/
-└── vault/
+├── ERC721/
+├── ERC1155/
+├── Staking/
+├── Vault/
+└── DAO/
 ```
 
 ---
@@ -110,6 +111,22 @@ Features:
 
 ---
 
+### DAO
+
+Decentralized governance system built with OpenZeppelin Governor and Timelock.
+
+Features:
+
+- ERC20Votes governance token
+- Governor
+- TimelockController
+- Proposal creation
+- On-chain voting
+- Queue & Execute
+- Governance-controlled protocol parameters
+
+---
+
 ## Technologies
 
 - Solidity ^0.8.24
@@ -129,6 +146,8 @@ This repository was created to practice:
 - Multi-token standards
 - ERC4626 tokenized vaults
 - DeFi staking mechanics
+- DAO governance
+- Timelock execution
 - Secure Solidity development
 - OpenZeppelin best practices
 
