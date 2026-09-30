@@ -2,7 +2,7 @@
 
 A collection of Solidity smart contracts built while learning smart contract development on Base.
 
-The repository contains educational implementations of ERC standards, DeFi primitives, and on-chain governance using Solidity and OpenZeppelin.
+The repository contains educational implementations of ERC standards, DeFi primitives, on-chain governance, and NFT marketplace mechanics using Solidity and OpenZeppelin.
 
 ---
 
@@ -17,7 +17,8 @@ base-learning/
 ├── ERC1155/
 ├── Staking/
 ├── Vault/
-└── DAO/
+├── DAO/
+└── Marketplace/
 ```
 
 ---
@@ -127,9 +128,44 @@ Features:
 
 ---
 
+### Marketplace — Day 9
+
+Non-custodial ERC721 NFT marketplace built and tested on Base Mainnet.
+
+Completed: September 30, 2026.
+
+Features:
+
+- ERC721 NFT minting
+- Marketplace approval
+- NFT listing
+- Listing price updates
+- Listing cancellation
+- NFT purchases with ETH
+- Automatic NFT transfer to buyer
+- Seller payment
+- 2.5% marketplace fee
+- Fee withdrawal
+- Reentrancy protection
+- Ownership and approval validation
+
+Contracts:
+
+**Papa721NFT**
+
+`0x28cFc025993d77fcfbc1cd92BF37F13148869BE5`
+
+**PapaMarketplace**
+
+`0x81c56C758dE3a9F8df90a12A18f2a8A20153c021`
+
+The complete marketplace lifecycle was successfully tested on Base Mainnet using two wallets.
+
+---
+
 ## Technologies
 
-- Solidity ^0.8.24
+- Solidity ^0.8.20 / ^0.8.24
 - OpenZeppelin Contracts v5
 - Remix IDE
 - Base Network
@@ -148,8 +184,25 @@ This repository was created to practice:
 - DeFi staking mechanics
 - DAO governance
 - Timelock execution
+- NFT marketplace architecture
+- Non-custodial NFT trading
+- Marketplace fees
 - Secure Solidity development
 - OpenZeppelin best practices
+
+---
+
+## Progress
+
+- Day 1 — SimpleStorage
+- Day 2 — ERC20
+- Day 3 — B20
+- Day 4 — ERC721
+- Day 5 — ERC1155
+- Day 6 — Staking
+- Day 7 — ERC4626 Vault
+- Day 8 — DAO Governance
+- Day 9 — NFT Marketplace 
 
 ---
 
